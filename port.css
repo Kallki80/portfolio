@@ -266,34 +266,33 @@
 @media (max-width:500px){
     .img1{
         height: 200px;
-        font-size: 15px;
+        font-size: 10px;
     }
     .img1 img{
         margin-top: 100px;
-        margin-left: -200px;
+        margin-left: -80px;
         height: 150px;
-        width: 300px;   
+        width: 250px;   
     }
     .name {
-        width: 200px;
+        width: 150px;
         position: relative;
-        left: 100px;
+        left: 55%;
         top: -60%;
-        text-align: center;
+        /* text-align: center; */
         transform: translateY(-50%);
-        /* background-color: aqua; */
     }
     .vis{
         background-color: #ffffff;
         color: #000000;
-        border-radius: 20px;
-        font-size: 10px;
-        width: 200px;
+        border-radius: 10px;
+        font-size: 8px;
+        width: 145px;
         text-align: center;
     }
     .h{
-        width: 150px; 
-        margin-right: 50px;
+        width: 130px; 
+        margin-left: 0px;
     }
     .nave{
         background-color: #ffffff;
@@ -306,7 +305,7 @@
     .ani {
         /* width: 200px; */
         /* text-align: center; */
-        margin-left: 40px;
+        /* margin-left: 40px; */
         animation-name: anitxt;
         animation-duration: 5s;
         animation-fill-mode: forwards;
@@ -317,13 +316,13 @@
         0% {
             transform: translateX(0px);
         }
-        40% {
-            margin-right: -250px;
+        30% {
+            margin-right: -50px;
             transform: rotate(85deg); 
             animation-timing-function: ease-in; 
         }
-        80% {
-            transform: translateY(-10px) translateX(-50px) rotate(25deg);
+        50% {
+            transform: translateY(0px) translateX(20px) rotate(25deg);
             animation-timing-function: ease-out;
         }
         100% {
