@@ -39,9 +39,17 @@
     transform: translateY(-50%);
 }
 .h{
-    width: 200px; 
+    width: 300px; 
     margin-right: 200px;
     
+}
+.vis{
+    text-align: center;
+    width: 300px;
+    font-size: 15px;
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 10px;
 }
 .ani {
     margin-right: 500px;
@@ -121,7 +129,7 @@
     background: linear-gradient(90deg,#000000,#737373);
     margin-top: 900px;
     color: #ffffff;
-    font-size: 30px;
+    font-size: 15px;
     text-align: center;
 }
 .support1{
@@ -143,7 +151,7 @@
 }
 .prod:hover{
     margin-top: 0%;
-    height: 380px;
+    height: 360px;
     border-radius: 0px 50px 0px 50px;
 }
 .prod img{
@@ -255,7 +263,7 @@
 }
 
 
-@media (max-width:400px){
+@media (max-width:500px){
     .img1{
         height: 200px;
         font-size: 15px;
@@ -267,13 +275,25 @@
         width: 300px;   
     }
     .name {
-        width: 90%;
+        width: 200px;
         position: relative;
         left: 100px;
         top: -60%;
         text-align: center;
         transform: translateY(-50%);
         /* background-color: aqua; */
+    }
+    .vis{
+        background-color: #ffffff;
+        color: #000000;
+        border-radius: 20px;
+        font-size: 10px;
+        width: 200px;
+        text-align: center;
+    }
+    .h{
+        width: 100px; 
+        margin-right: 200px;
     }
     .nave{
         background-color: #ffffff;
@@ -284,7 +304,9 @@
         font-size: 15px;
     }
     .ani {
-        margin-right: 0px;
+        /* width: 200px; */
+        /* text-align: center; */
+        margin-left: 40px;
         animation-name: anitxt;
         animation-duration: 5s;
         animation-fill-mode: forwards;
@@ -309,7 +331,7 @@
         }
     }
     .vid1{
-        width: 97%;
+        width: 95%;
         height: 51%;
     }
     .vidbod{
@@ -324,22 +346,24 @@
         display: flex;
     }
     .vidcon{
+        width: auto;
         margin-top: -50px;
         font-size: 10px;
         margin-left: 5%;
         color: #ffffff;
-        height: 100%;
+        height: 130%;
         text-align: center;
+        position: relative;
     }
     .responc img{
         border-radius: 10px 10px 0px 0px;
-        margin-top: 80%;
+        margin-top: 130%;
         margin-left: -30%;
-        width: 200px;
+        width: 100%;
     }
     .vidcon p{
         font-size: 10px; 
-        width: 260%;
+        width: 190%;
         margin-top: 10%;
     }
     .support{
@@ -376,7 +400,7 @@
         height: 40px;
     }
     .abouttxt{
-        width: 200px;
+        width: 100%;
         height:140px;
         color: #ffffff;
         background: linear-gradient(90deg, #737373, rgb(45, 44, 44));
@@ -386,8 +410,8 @@
     }
     .about{
         display: flex;
-        /* margin: 5%; */
-        width: 370px;
+        padding: 1%;
+        width: 95%;
         overflow: hidden;
         font-size: 8px;
         background: linear-gradient(90deg, #777777, rgb(29, 28, 28));
@@ -421,7 +445,7 @@
         padding: 20%;
         background-color: #ffffff27;
         border-radius: 20px;
-        margin: 50px;
+        margin: 30px;
     }
     .skilsimg:hover{
         margin-top: 0px;
@@ -477,7 +501,7 @@
     }
     .connect3{
         width: 50%;
-        margin-left: 20px;
+        margin-left: 5px;
         text-align: left;
     }
     .connect{
