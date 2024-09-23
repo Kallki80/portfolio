@@ -6,9 +6,9 @@
 }
 .img1 img{
     margin-top: 150px;
-    margin-left: 00px;
+    margin-left: -200px;
     height: 500px;
-    width: 800px;
+    width: 1000px;
     
 }
 .img11{
@@ -270,7 +270,7 @@
     }
     .img1 img{
         margin-top: 100px;
-        margin-left: 0px;
+        margin-left: -80px;
         height: 150px;
         width: 250px;   
     }
